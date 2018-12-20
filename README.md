@@ -34,3 +34,7 @@ This is an intergrated robotics project for undergraduated students going on rig
     2. 编写一套程序，在无人干预的情况下，让机械臂完成上一个任务；
     ……
     
+## 参考资料
+  1. 机械臂 - [微云下载](https://share.weiyun.com/5NON5eJ)
+  2. 麦轮小车 - [微云下载](https://share.weiyun.com/5FbUiIc)
+  3. PS2无线手柄 - [微云下载](https://share.weiyun.com/5YLfcvz)
