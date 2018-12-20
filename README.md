@@ -35,6 +35,6 @@ This is an intergrated robotics project for undergraduated students going on rig
     ……
     
 ## 参考资料
-  1. 机械臂 - [微云下载](https://share.weiyun.com/5NON5eJ)
+  1. 机械臂 - [微云下载](https://share.weiyun.com/5NON5eJ) (配套电池：用手机适配器充电；4小时充满电)
   2. 麦轮小车 - [微云下载](https://share.weiyun.com/5FbUiIc)
   3. PS2无线手柄 - [微云下载](https://share.weiyun.com/5YLfcvz)
