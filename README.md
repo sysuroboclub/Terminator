@@ -39,6 +39,6 @@ This is an intergrated robotics project for undergraduated students going on rig
   * 操作方法：安装[安卓手机APP](https://github.com/sysuroboclub/Terminator/raw/master/software/minibalance_v5.2(%E5%8F%AF%E4%BB%A5%E9%81%A5%E6%8E%A7%E5%92%8C%E7%9B%91%E6%8E%A7%E6%94%AF%E6%8C%81android9.0).apk)
     
 ## 参考资料
-  1. 机械臂 - [微云下载](https://share.weiyun.com/5NON5eJ) (配套电池：用手机适配器充电；4小时充满电)
+  1. 机械臂 - [微云下载](https://share.weiyun.com/5hlG7v4) (配套电池：用手机适配器充电；4小时充满电)
   2. 麦轮小车 - [微云下载](https://share.weiyun.com/5FbUiIc)
   3. PS2无线手柄 - [微云下载](https://share.weiyun.com/5YLfcvz)
