@@ -73,7 +73,7 @@ Python函数库依赖：pyaudio
 > sudo pip install pyaudio
 > ```
 
-首先运行_get_index.py_，在输出窗口查看__ReSpeaker__的设备ID（Input Device id），将文件_record.py_中的变量__RESPEAKER_INDEX__的值修改为前述ID，然后运行_record.py_进行录音，音频文件保存为_output.wav_。在[这个网站](http://wiki.seeedstudio.com/cn/ReSpeaker_Mic_Array_v2.0/)上有详细教程。
+首先运行get_index.py，在输出窗口查看ReSpeaker的设备ID（Input Device id），将文件record.py中的变量RESPEAKER_INDEX的值修改为前述ID，然后运行record.py进行录音，音频文件保存为output.wav。在[这个网站](http://wiki.seeedstudio.com/cn/ReSpeaker_Mic_Array_v2.0/)上有详细教程。
 
 
 
@@ -91,15 +91,15 @@ Python函数库依赖：aip
 sudo pip install baidu-aip
 ```
 
-从[百度AI开放平台](https://ai.baidu.com/tech/speech)上注册一个账号后，在语音技术模块处获得__APP_ID__、__API_KEY__以及__SECRET_KEY__，将以上ID和口令填入_sound2text.py_和_text2sound.py_中对应位置。
+从[百度AI开放平台](https://ai.baidu.com/tech/speech)上注册一个账号后，在语音技术模块处获得APP_ID、API_KEY以及SECRET_KEY，将以上ID和口令填入sound2text.py和text2sound.py中对应位置。
 
 ##### 3.2 将语音转换为文本输出
 
-将要转换成文本的语音文件_audio.wav_（时长不超过1分钟）放在_sound2text.py_相同目录下，再运行_sound2text.py_即可在输出窗口查看语音转换后的文本。
+将要转换成文本的语音文件audio.wav（时长不超过1分钟）放在sound2text.py相同目录下，再运行sound2text.py即可在输出窗口查看语音转换后的文本。
 
 ##### 3.3 将文本转换成语音输出
 
-将要转换成语音的文本字符串作为_text2sound.py_中变量__text__的值，再运行_text2sound.py_即可在该目录下查看到文本转换而成的音频文件_audio.mp3_。
+将要转换成语音的文本字符串作为text2sound.py中变量text的值，再运行text2sound.py即可在该目录下查看到文本转换而成的音频文件audio.mp3。
 
 
 
