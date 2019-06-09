@@ -33,7 +33,8 @@ else if(Usart_Receive==0x49||Usart_Receive==0x4A) Turn_Flag=0;
 if(Usart_Receive==0x43) Flag_Left=0,Flag_Right=1;    
 else if(Usart_Receive==0x47) Flag_Left=1,Flag_Right=0;
 else Flag_Left=0,Flag_Right=0;
-				 if(Usart_Receive==0x41||Usart_Receive==0x45)Flag_Direction=Usart_Receive-0x40;
+
+if(Usart_Receive==0x41||Usart_Receive==0x45)Flag_Direction=Usart_Receive-0x40;
 else Flag_Direction=0;
 ```
 
@@ -64,16 +65,16 @@ ser=serial.Serial(serialPort,baudRate,timeout=0.5)
 import msvcrt
 key1 = ord(msvcrt.getch())
 if key1 == 13: #Enter退出
-	break  
+    break  
 elif key1 == 32: #空格键
-	stop()
+    stop()
 ```
 
 ​	由于我们通过上下左右键控制小车运动，而msvcrt模块捕捉键盘信号时，如果输入为方向键，则会得到两个字符，且第一个字符为224。所以当key1为224时，进行key2的读取。
 
 ```python
 elif key1 == 224:
-	key2 = ord(msvcrt.getch())
+    key2 = ord(msvcrt.getch())
     if key2 == 72: go_up()
     elif key2 == 80: go_down()
     elif key2 == 75: go_left()
